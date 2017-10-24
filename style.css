@@ -1,0 +1,113 @@
+body{
+	background-color: #fff;
+}
+
+nav{
+background-color: #fff;
+
+}
+nav .active{
+background-color:  #2c0883 !important;
+}
+
+.page-footer{
+	background-color: #000021 ;
+}
+.footer-copyright{
+	background-color: #000010 !important;
+}
+.tab>a{
+	
+	color: white !important;
+}
+
+#services {
+	background-color: #ffffff;
+
+}
+
+#services .glyphicon{
+	font-size: 3em;
+	color: #2c0883;
+}
+
+h1{
+	font-family: 'Orbitron', sans-serif;
+	text-align: center;
+	-webkit-text-stroke-color:black;
+	-webkit-text-stroke-width:1px;
+	color: #A2A2FF;
+}
+h4{
+	text-align: center;
+	font-family: 'Orbitron', sans-serif;
+}
+.carousel{
+	margin-bottom: 50px;
+	}
+
+.slider{
+	background-color: #1b3550;
+	}
+.slider img{
+	margin: 0px 0px 0px 0px;
+}
+
+#feature-icons{
+	
+	background-color: #e0e0ff;
+	text-align: center;
+
+}
+#feature-icons>h1{
+	color: midnightblue !important;
+}
+
+.indicators{
+	margin-bottom: 10px !important;}
+
+.indicator-item{
+	background-color: #dfdfff !important;
+}
+.indicator-item.active{
+	background-color: #2c0883 !important;
+}
+.article{
+	background-color: #dfdfff !important;
+ 	margin-top:10px;
+}
+.article>h1{
+	color: #2c0883;
+}
+
+#portfolio{
+	background-color: #dfdfff !important;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#portfolio>h1{
+	color: #2c0883;
+}
+.tab{
+	border-right-width: 2px !important;
+	border-style: dotted;
+	border-color: grey;	
+	border-radius: 5px;
+}
+.tab:hover{
+	color: #2c0883 !important;
+}
+.tab>a:hover,a:focus{
+	text-decoration: none;
+	color: #8888FF !important;
+	-webkit-text-stroke-width:.1px;
+	-webkit-text-stroke-color:blue;
+}
+
+#contact{
+background-color: #000021 !important;
+padding-bottom: 10px;
+margin-bottom: 0px;
+}
+
+

@@ -1,0 +1,390 @@
+<html>
+<head>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+<!--scroll magic-->
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+<!--scroll magic-->
+
+<link href="style.css"  rel="stylesheet">
+</head>
+<body>
+<!--navbar-->
+<div class="navbar-fixed">
+<nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo center">Logo</a>
+      <ul class="left hide-on-med-and-down">
+        <li class="active"><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li ><a href="collapsible.html">JavaScript</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<!--navbar-->
+
+
+<!--Carousel-->
+<div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="https://previews.123rf.com/images/abidal/abidal1304/abidal130400087/19113483-computer-robot-background-Stock-Photo-intelligence-artificial-robot.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+<script>$(document).ready(function(){
+      $('.slider').slider();
+    });
+
+</script>
+<!--Carousel-->
+<!--feature icons-->
+<div class="container-fluid" id="feature-icons">
+  <h1>icons here</h1>
+</div>
+<!--feature icons-->
+
+
+<!--Sections-->
+ 
+ <h1>Features</h1>
+ <h4>Our creations</h4>
+  <div id="test-swipe-1" class="container " style="width: 100%; height: 100%;"></div>
+  <div id="test-swipe-2" class="container" style="width: 100%;height: 100%;"></div>
+  <div id="test-swipe-3" class="container " style="width: 100%;height: 100%;"></div>
+<div id="test-swipe-4" class="container " style="width: 100%;height: 100%;"></div>
+  <div id="test-swipe-5" class="container " style="width: 100%;height: 100%;"></div>
+<div id="test-swipe-6" class="container " style="width: 100%;height: 100%;"></div>
+
+
+<ul class="tabs tabs-fixed-width" style="background-color: #2c0883;">
+    <li class="tab container"><a href="#test-swipe-1">Project 1 icon</a></li>
+    <li class="tab container"><a  href="#test-swipe-2">Project 2 icon</a></li>
+    <li class="tab container"><a href="#test-swipe-3">Project 3 icon</a></li>
+ <li class="tab container"><a href="#test-swipe-4">Project 4 icon</a></li>
+    <li class="tab container"><a  href="#test-swipe-5">Project 5 icon</a></li>
+    <li class="tab container"><a href="#test-swipe-6">Project 6 icon</a></li>
+
+ </ul>
+<script>
+    $(document).ready(function(){
+    $('ul.tabs').tabs({swipeable:true});
+
+  });
+</script>
+<!--Sections-->
+<!--porfolio-->
+<!-- Container (Portfolio Section) -->
+<div id="portfolio" class="container-fluid text-center bg-grey">
+  <h1>Portfolio</h1>
+  <h4>What we have created</h4>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="paris.jpg" alt="Paris" width="400" height="300">
+        <p><strong>Paris</strong></p>
+        <p>Yes, we built Paris</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="newyork.jpg" alt="New York" width="400" height="300">
+        <p><strong>New York</strong></p>
+        <p>We built New York</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
+        <p><strong>San Francisco</strong></p>
+        <p>Yes, San Fran is ours</p>
+      </div>
+    </div>
+  </div><br>
+ 
+</div>
+<!--portfolio-->
+
+
+<!--services-->
+<!-- Container (Services Section) -->
+<div id="services" class="container-fluid text-center">
+  <h1>Services</h1>
+  <h4>What we offer</h4>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-off"></span>
+      <h6>POWER</h6>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-heart "></span>
+      <h6>LOVE</h6>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-lock "></span>
+      <h6>JOB DONE</h6>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+  </div>
+  <br><br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-leaf"></span>
+      <h6>GREEN</h6>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-certificate"></span>
+      <h6>CERTIFIED</h6>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-wrench"></span>
+      <h6>HARD WORK</h6>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+  </div>
+</div>
+<!--services-->
+
+<!--article gallery-->
+
+<div class="row article">
+<h1>Articles</h1>
+<h4>Informative</h4>
+        <div class="col s12 m6">
+          <div class="card darken-1">
+            <div class="card-content black-text">
+              <span class="card-title">Card Title</span>
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+    <div class="col s12 m6">
+          <div class="card darken-1">
+            <div class="card-content black-text">
+              <span class="card-title">Card Title</span>
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+    <div class="col s12 m6">
+          <div class="card darken-1">
+            <div class="card-content black-text">
+              <span class="card-title">Card Title</span>
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+    <div class="col s12 m6">
+          <div class="card darken-1">
+            <div class="card-content black-text">
+              <span class="card-title">Card Title</span>
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!--article gallery-->
+
+<!--carousel-->
+<h1>Gallery</h1>
+<h4>What is going on here!</h4>
+ <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/250/250/nature/1"></a>
+    <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"></a>
+    <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a>
+    <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
+    <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
+  </div>
+<script>
+        $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+</script>
+<!--carousel-->
+
+<!--contact-->
+
+<div class="row" id="contact">
+<h1>Contact Us</h1>
+<h4>Connect any time</h4>
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="Placeholder" id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+
+<div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+
+       <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Comments</label>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class=" center-align">
+  
+  <button class="btn indigo darken-1 waves-effect waves-light" type="submit" name="action">Submit
+    <span class="glyphicon glyphicon-send"></span>
+  </button></div>
+      </form>
+      </div>
+ 
+      <script type="text/javascript">
+      $(document).ready(function(){
+      $('#textarea1').val('Comments');
+  $('#textarea1').trigger('autoresize');
+    });
+  </script>
+
+  <!--map-->
+   <!-- Add Google Maps -->
+<div id="googleMap" style="height:400px;width:100%;"></div>
+<script>
+function myMap() {
+var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var marker = new google.maps.Marker({position:myCenter});
+marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script> 
+  <!--map-->
+<!--contact-->
+
+        <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+
+<script type="text/javascript">$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });</script>
+
+  <script type="text/javascript" src="js.js"></script>
+</body>
+</html>
